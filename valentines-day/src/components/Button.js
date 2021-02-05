@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Link } from "gatsby";
 
 const Button = styled.button`
   font-size: 20px;
@@ -7,13 +8,16 @@ const Button = styled.button`
   background-color: red;
   text-transform: uppercase;
   display: block;
-  margin: 0 auto;
+  margin: 20px auto;
   padding: 15px;
   cursor: pointer;
 `;
 
 const button = (props) => (
-    <Button onClick={props.submit}>{props.name}</Button>
+      <Button>
+        <Link style={{ textDecoration: 'none' }} to={props.linkedPage}>{props.name}</Link>
+      </Button>
+
 )
 
 export default button;
