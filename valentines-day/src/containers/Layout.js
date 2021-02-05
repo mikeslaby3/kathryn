@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 import styled from 'styled-components';
 
 import Header from '../components/Header';
-import Button from '../components/Button';
+import Buttons from './Buttons';
 
 const StyledContainer = styled.div`
     margin: 50px auto;
@@ -15,14 +15,12 @@ const layout = (props) => (
     <Fragment>
         <StyledContainer>
             <Header line={props.headerText}></Header>
-            <Button 
-                name={props.button1Text}
-                linkedPage={props.button1Link}>
-            </Button>
-            <Button 
-                name={props.button2Text}
-                linkedPage={props.button2Link}>
-            </Button>
+            <Buttons
+                b1t={props.button1Text}
+                b1l={props.button1Link}
+                b2t={props.button2Text}
+                b2l={props.button2Link}>
+            </Buttons>
         </StyledContainer>
     </Fragment>
 )
