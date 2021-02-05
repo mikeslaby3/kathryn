@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { Link } from "gatsby";
 
 const Button = styled.button`
-  font-size: 20px;
+  font-size: 25px;
   color: red;
   background-color: #DEDEDE;
   display: block;
@@ -12,13 +12,14 @@ const Button = styled.button`
   cursor: pointer;
   border: 3px solid black;
   border-radius: 12px;
+  font-family: 'Londrina Solid', cursive;
 `;
 
 const button = (props) => (
       <Button>
         <Link 
         to={props.linkedPage}
-        style={{ textDecoration: 'none', color: 'red'}}>
+        style={{ textDecoration: 'none', color: 'black'}}>
           {props.name}
         </Link>
       </Button>
