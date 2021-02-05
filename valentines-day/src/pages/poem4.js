@@ -5,10 +5,10 @@ const Poem4 = () => {
   return (
     <Layout 
       headerText={'Now look at me, I\'m at the point where I\'m writing you long distance poems (that kinda rhymed...)'}
-      button1Text="Next"
-      button1Link="/poem5/"
-      button2Text="Back"
-      button2Link="/poem3/"
+      button2Text="Next"
+      button2Link="/poem5/"
+      button1Text="Back"
+      button1Link="/poem3/"
       >
     </Layout>
   )

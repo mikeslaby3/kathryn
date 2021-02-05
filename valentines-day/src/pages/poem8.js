@@ -5,9 +5,9 @@ const Poem8 = () => {
   return (
     <Layout 
       headerText='So without further ado, Kathryn Brontsema, will you be my Valentine?'
-      button1Text="Yes"
-      button1Link="/theend/"
-      button2Text="No"
+      button2Text="Yes"
+      button2Link="/theend/"
+      button1Text="No"
       >
     </Layout>
   )
