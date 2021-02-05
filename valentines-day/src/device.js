@@ -23,3 +23,5 @@ const size = {
   // @media ${device.mobileL} {
   //   flex-flow: row;
   // }
+
+  //iphone 10 375 x 812 px
