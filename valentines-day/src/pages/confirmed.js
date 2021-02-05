@@ -8,7 +8,7 @@ const Confirmed = () => {
       button1Text="Let's hear it"
       button1Link="/yousure/"
       button2Text="I think I'm good"
-      button2Link="/mean/"
+      button2Link="/imgood/"
       >
     </Layout>
   )
