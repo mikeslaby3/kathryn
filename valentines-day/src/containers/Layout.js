@@ -1,6 +1,8 @@
 import React, { Fragment } from 'react';
 import styled from 'styled-components';
 
+import Background from "./BackgroundImage.css";
+
 import Header from '../components/Header';
 import Buttons from './Buttons';
 
@@ -8,7 +10,6 @@ const StyledContainer = styled.div`
     margin: 50px auto;
     width: 350px;
     height: 100%;
-    background-image: url("../images/pixel-heart.png");
 `;
 
 const layout = (props) => (
