@@ -1,14 +1,14 @@
 import * as React from "react";
-import Layout from '../containers/Layout';
+import SingleButtonLayout from '../containers/SingleButtonLayout';
 
 const Imposter = () => {
   return (
-    <Layout 
+    <SingleButtonLayout 
       headerText="Nice try imposter, get lost!"
-      button1Text="Try Again"
-      button1Link="/"
+      buttonText="Try Again"
+      buttonLink="/"
       >
-    </Layout>
+    </SingleButtonLayout>
   )
 }
 
