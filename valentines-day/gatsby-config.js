@@ -1,6 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "kathryn",
+    title: `Happy Valentine's Day Kathryn!`,
+    description: `There are definitely cooler websites that exist, but not a cooler girl than you KB`,
+    author: `Jarbroni Mike`,
   },
   plugins: [
     "gatsby-plugin-styled-components",
@@ -15,6 +17,7 @@ module.exports = {
         ],
         display: 'swap'
       }
-    }
+    },
+    `gatsby-plugin-react-helmet`,
   ],
 };
