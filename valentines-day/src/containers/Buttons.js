@@ -7,10 +7,11 @@ const ButtonContainer = styled.div`
     margin: 50px auto;
     width: 350px;
     height: 100%;
-    background-color: blue;
+    background-color: #FDA4BA;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    border-radius: 12px;
 `;
 
 const layout = (props) => (
